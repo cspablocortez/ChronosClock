@@ -12,6 +12,25 @@
 
 3. **Halloween Web**: This project was purposely made for Halloween because at the time of creating it, Halloween was just around the corner. The build was made with a variety of cylinders with a metallic material and the second cylinder was made with a larger amount of space in between the fractures of the cylinder and the material used was an orange emission material.
 
+## Upcoming Features and TODO
+
+1. Button to switch backgrounds
+
+2. Downloadable ones that come from Cronos
+
+3. You can add your own
+
+4. You can change font, colors, etc.
+
+5. Ctrl+H for Hiding Settings
+
+6. Add a settings button
+
+7. Create a logo for Cronos
+
+
+
+
 ## License
 
 MIT License
