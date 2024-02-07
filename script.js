@@ -6,6 +6,14 @@ minutesSpan = document.getElementById("minutes");
 secondsSpan = document.getElementById("seconds");
 
 
+function setDate() {
+    months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
+    days = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"]
+    const dateCell = document.getElementById('date');
+    const d = new Date();
+    dateCell.textContent = days[d.getDay()] + " " + months[d.getMonth()] + " " + d.getDate();
+}
+
 function formatTime() {
     const d = new Date();
     const hours = formatDigit(d.getHours());
@@ -30,4 +38,5 @@ function setTime() {
     timeCell.innerHTML = time;
 }
 
+setDate();
 window.setInterval(setTime, 1000);
