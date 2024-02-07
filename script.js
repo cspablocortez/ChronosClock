@@ -38,5 +38,10 @@ function setTime() {
     timeCell.innerHTML = time;
 }
 
+function setTemperature() {
+    const tempCell = document.getElementById('temp');
+    
+}
+
 setDate();
 window.setInterval(setTime, 1000);
