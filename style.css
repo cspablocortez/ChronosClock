@@ -62,3 +62,7 @@ video {
     text-align: center;
     text-shadow: 10px 20px 35px rgba(47, 32, 60, 90%);
 }
+
+#date {
+    font-size: 5vh;
+}
