@@ -21,7 +21,7 @@ function formatTime() {
     const seconds = formatDigit(d.getSeconds());
 
     // 12 hour clock
-    let timeString = `—${hours} + ":" + ${minutes}—`;
+    let timeString = `—${hours}:${minutes}—`;
     // timeString += (hours >= 12) ? " PM" : " AM";
 
     return timeString;
